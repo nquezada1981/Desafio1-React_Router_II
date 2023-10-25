@@ -1,0 +1,8 @@
+h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 25px 35px;
+    color: black;
+    font-size: 900;
+    font-weight: bold;
+}
