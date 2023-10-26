@@ -7,14 +7,14 @@ import { } from "@fortawesome/react-fontawesome"
 
 const App = () => {
   return (
-    <>
+    <div className="container-fluid w-auto">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="*" element={<h1>Pagina no encontrada</h1>} />
       </Routes>
-    </>
+    </div>
   )
 }
 

@@ -1,8 +1,9 @@
 nav {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 25px 25px 25px 35px;
-    background-color: red;
+    padding: 25px 5px 25px 35px;
+    background-color: black;
     color: white;
     font-size: larger;
     font-weight: bold;
@@ -25,4 +26,17 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.cake {
+    width: 10%;
+    padding-right: 0%;
+}
+
+.nombre {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    padding-right: 30px;
 }
