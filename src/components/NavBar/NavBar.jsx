@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
     return (
         <nav className="container-fluid w-auto">
+
             <div className="enlaces">
                 <div className="icono">
                     <FcHome />
